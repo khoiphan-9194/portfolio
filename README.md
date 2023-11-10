@@ -10,6 +10,8 @@ For this challenge I created my own page  which will be added to over time to be
     I also included some on hover effects for the various links and the projects on the page.
     Screenshots added in the image show the assigment completed
 
+LINK TO DEPLOYED APPLICATION: https://khoiphan-9194.github.io/portfolio/
+
 /* ================================= Structural content style ==================================== 
  /*---------- Header ---------- */
  {
