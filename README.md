@@ -8,6 +8,7 @@ For this challenge I created my own page  which will be added to over time to be
     In this assigment, about work section I demo several things based on what i have learned and understanding, i will Update projects later on, so that i temporarily added images. 
     The page was styled for smaller screen sizes
     I also included some on hover effects for the various links and the projects on the page.
+    Screenshots added in the image show the assigment completed
 
 /* ================================= Structural content style ==================================== 
  /*---------- Header ---------- */
