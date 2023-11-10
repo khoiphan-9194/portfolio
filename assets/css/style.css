@@ -1,0 +1,377 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*body*/
+body {
+    background-color: #d9dcd6;
+    height: 100%;
+    position: relative;
+  }
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #7c2a3e;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(47, 0, 255));
+    color: #ffffff;
+    
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 150px;
+    margin-left: 150px;
+}
+
+
+
+/* define header <nav> */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 80px;
+}
+
+
+  .header nav ul li:hover 
+  {
+    background-color: rgb(127, 244, 255);
+    border: 5px dashed blueviolet;
+  }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+} 
+
+p {
+    font-size: 16px;
+    color:#0072bb
+} 
+
+
+.hero {
+
+    height: 700px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/bb.webp");
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.hero img
+{
+    height: 400px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 200px;
+    border-radius: 100px;
+    box-shadow: 3px 5px 5px black;
+
+    
+}
+
+
+.quote
+{
+    position: relative;
+    margin-top: 250px;
+    left: 15%;
+}
+
+.hero .quote #quote-text {
+    font-size: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation-name: rainbow;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+  
+  @keyframes rainbow {
+    0%   {color: rgb(159, 82, 0);}
+    25%  {color: yellow;}
+    50%  {color: whitesmoke;}
+    100% {color: rgb(0, 94, 128);}
+  }
+
+
+main  
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+ 
+}
+ main h1{
+    background-color: aqua;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 100px;
+ }
+
+
+
+
+.left-side
+{
+    width: 20%;
+    position: relative;
+    top: 150px;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+#line {
+    border-left: 10px solid green;
+    position: relative;
+    top: -30px;
+    padding: 50px;    
+  
+  }
+
+  
+  .right-side
+
+  {
+      width: 80%;
+        float: right;
+      display: flex;
+      flex-wrap: wrap;
+      position: relative;
+
+  }
+
+  .aboutme
+{
+  
+  
+    margin: 10px;
+    width: 100%;
+}
+
+.work
+{
+  
+   background-color: darkblue;
+   background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(0, 255, 98));
+    margin: 10px;
+    width: 100%;
+}
+
+.aboutme p {
+  
+
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  bottom: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 60px;
+  color: red;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 6px;
+
+    padding: 10px;
+    float: right;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px solid rgba(128, 11, 11, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 60px;
+    text-align: center;
+    width:1200px;
+    height: 750px;
+    margin: 60px;
+    
+
+  }
+  .grid-item img
+  {
+    height: 100%;
+    width: 100%; 
+    object-fit: cover;
+    border-radius: 60px;
+    opacity: 0.5;
+  }
+
+/* The user's cursor is positioned over the element   */
+   .grid-container img:hover {
+    border: 10px solid black;
+    opacity: 1.0;
+    
+   
+  }
+
+
+ 
+  
+  .grid-container h1
+  {
+    background-color: #7c2a3e;
+  }
+
+
+.contact
+{
+  
+    margin: 10px;
+    width: 100%;
+  
+}
+
+.contact a {
+    color: black;
+}
+
+.contact nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    position: relative;
+    right: 20%;
+}
+
+.contact nav ul {
+    list-style-type: none;
+}
+
+.contact nav ul li {
+    display: inline-block;
+    margin-left: 255px;
+    
+}
+
+
+
+/* content is displayed in columns at 992px or smaller. */
+@media screen and (max-width: 992px) {
+  
+
+body {
+  background-color: #335b0b;
+ 
+}
+    .quote
+    {
+     display: none;   
+    }
+    .header h1 
+    {
+      font-size: 15px;
+    }
+    .header nav ul li 
+    {
+      font-size: 15px;
+      position: relative;
+      right: 100px;
+      margin-right: 60px;
+    }
+
+    .hero
+    {
+      width: 200px;
+      height: 200px;
+      justify-content: right;
+      
+
+    }
+    .hero img
+    {
+      width: 200px;
+      height: 200px;
+      justify-content: right;
+    }
+
+   .left-side h1
+   {
+    font-size: 20px;
+   }
+
+   .aboutme p
+   {
+    font-size: 10px;
+    color: #0072bb;
+   }
+   .grid-container
+   {
+    display: flex;
+    flex-direction: column;
+   }
+   .grid-container div
+   {
+   
+    width: 220px;
+    justify-content: left;
+  
+   }
+   .grid-item h1
+   {
+    font-size: 15px;
+   }
+
+   .contact nav ul li 
+   {
+     font-size: 15px;
+     position: relative;
+     right: 100px;
+     margin-right: 60px;
+     display: flex;
+     
+   }
+
+  }
+
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;   
+}
+
+.footer h2 {
+    font-size: 40px;
+}
+
